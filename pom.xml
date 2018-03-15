@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.revokey.lib</groupId>
+        <artifactId>base-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>base-pom/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>java-libs</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>java-libs</name>
+    <description>java-libs</description>
+    <packaging>pom</packaging>
+
+    <properties>
+        <com.revokey.lib.version>1.0-SNAPSHOT</com.revokey.lib.version>
+    </properties>
+
+    <modules>
+        <module>base-pom</module>
+        <module>auth</module>
+        <module>base-api</module>
+        <module>base-module</module>
+        <module>base-common</module>
+    </modules>
+
+</project>
